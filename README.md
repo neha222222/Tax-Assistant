@@ -2,4 +2,4 @@
 A Tax Assistant that help you file your tax easily using Ai.
 
 # Design Implementation
-![Design](https://github.com/user-attachments/assets/65446423-6cab-40ce-938e-4e78d9cffdfb)
+![Blank diagram - Page 2](https://github.com/user-attachments/assets/b05a729b-904d-4327-b71d-0dc0ff1ae847)
