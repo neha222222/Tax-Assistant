@@ -1,0 +1,13 @@
+
+fastapi
+uvicorn
+langchain
+python-dotenv==1.0.0
+flask_cors
+xmltodict
+pinecone-client==3.1.0
+google-generativeai
+cohere
+angle-emb
+psycopg2-binary
+
