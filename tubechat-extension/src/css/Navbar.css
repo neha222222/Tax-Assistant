@@ -1,0 +1,44 @@
+.navbar-component{
+  padding: 2.5% 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-component div{
+  border-radius: 12px;
+  background-color: rgba(34, 35, 39, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+}
+
+.credit-score-section{
+  width: 63px;
+  padding: 8px 18px;
+  font-size: 12px;
+  gap: 4px;
+}
+
+.chat-section{
+  width: 70px;
+  height: auto;
+  padding: 8px 24px;
+  gap: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.profile-section{
+  height: auto;
+  width: 24px;
+  padding: 8px 24px;
+  cursor: pointer;
+}
+
+.handle-height{
+  width: 24px;
+  padding: 8px 4px;
+  cursor: pointer;
+}

@@ -1,0 +1,100 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 8px;
+}
+.header-section {
+  margin-top: 12px;
+  height: 85px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.header-section .content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+.main-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+}
+
+.main-section div {
+  border-radius: 22px;
+  width: 90%;
+  background-color: #2b2930;
+  color: #ffffff;
+  padding: 5px 16px;
+  display: flex;
+  align-items: center;
+}
+
+.main-section select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: none;
+  background: transparent;
+  padding: 0;
+  padding-right: 30px;
+  color: #ffffff;
+  text-align: right;
+  background: url("../assets/drop_down_icon.svg") no-repeat center right;
+  background-size: 20px;
+}
+
+.main-section select::after {
+  content: "";
+  background: url("../assets/drop_down_icon.svg") no-repeat center right;
+  background-size: 20px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.main-section select option {
+  text-align: center;
+  color: #fff;
+  border: none;
+}
+
+.main-section select:focus {
+  outline: none;
+}
+
+.main-section select:focus option {
+  background-color: #333;
+}
+
+.main-section select {
+  padding: 5px;
+}
+
+.main-section select:-moz-focusring {
+  color: transparent;
+  text-shadow: 0 0 0 #fff;
+}
+
+.footer-section {
+  margin-top: auto;
+  padding: 6px 12px;
+  height: 36px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

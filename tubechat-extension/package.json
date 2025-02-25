@@ -1,0 +1,42 @@
+{
+  "name": "tubechat-extension",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "build:content": "vite build --config vite.content.config.ts",
+    "build:web": "tsc && vite build",
+    "build:backgorund": "vite build --config vite.background.config.ts",
+    "build:popup": "vite build --config vite.popup.config.ts",
+    "build-extension": "cross-env run-s build:content build:backgorund build:popup build:web && cp manifest.json dist/ && cp popup.html dist/"
+  },
+  "dependencies": {
+    "@clerk/chrome-extension": "^0.6.6",
+    "react": "^18.2.0",
+    "react-chatbot-kit": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.21.3",
+    "rollup-plugin-copy": "^3.5.0",
+    "vite-plugin-svgr": "^4.2.0",
+    "youtube-transcript": "^1.0.6"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.9"
+  }
+}

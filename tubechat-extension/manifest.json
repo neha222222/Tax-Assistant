@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Tubechat.ai",
+  "version": "1.0.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "webNavigation",
+    "tabs",
+    "notifications",
+    "management"
+  ],
+  "host_permissions": [
+    "*://www.youtube.com/watch*",
+    "http://localhost:5173/"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/watch*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_start"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js" 
+  }
+}

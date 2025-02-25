@@ -1,0 +1,12 @@
+#tubechat-ai {
+  font-family: 'Lexend', sans-serif;
+  color: rgba(255, 255, 255, 1);
+  background-size: cover;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin: 0 0 20px 0; 
+  border-radius: 8px;  
+}     
