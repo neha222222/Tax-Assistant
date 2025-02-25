@@ -42,19 +42,26 @@ Youtube Buddy is a chrome extension that allows you to talk with youtube videos.
 
 
 
-### Features
+## Design Implementation 
 
 - Talk to youtube videos
 - Watch video in Multilingual Languages
 ![Working Diagram](images/workflow_diagram.png)
 
-## Design Implementation 
+
+
 
 ### Frontend
+[frontend_working.webm](https://github.com/user-attachments/assets/1726f7de-335f-4ae2-bd12-b68735c557f3)
 
 ### Backend and Database
+[Backend_endpoints_working.webm](https://github.com/user-attachments/assets/ebcff7a3-5a07-4430-afca-5e54ac1a7d1a)
+
 
 ### Extension 
+
+https://github.com/user-attachments/assets/9f10bb3a-89e8-4000-bf11-2487b7084cfb
+
 
 
 
