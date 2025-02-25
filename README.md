@@ -17,6 +17,7 @@
 9. Select the `dist` folder inside your unzipped tubechat-extension folder.
 
 ![load_unpacked](assets/dist_folder.png)
+
 10. Now go to any youtube video and You must see the extension inserted in the youtube dom itself.
 
 ![extension_in_youtube](assets/extension_in_youtube.png)
