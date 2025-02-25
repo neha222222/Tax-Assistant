@@ -2,17 +2,12 @@ After creatig the Dockerfile
 
 1) Build an image of it 
 ```
-docker build -t pulpy .
+docker build -t tubechat .
 ```
 
-2) Now we need to run it
+2) Running the docker container
 ```
-docker ps # to check all docker continer running
-docker image ls
-docker container ls
-docker run -i -t 8dbd9e392a96 /bin/bash # for ubuntu
+docker run -d -p 8000:8000 tubechat
 ```
 
-3) Stopping a docker container
-docker stop <cont_id>
-docker rmi -f <img_id>
+the server will be running on http://localhost:8000
