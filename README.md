@@ -10,17 +10,17 @@
 5. Go to `http://localhost:3000`
 6. Download the Chrome extension from the top right corner of the page via clicking on download tubechat
 
-![download_tubechat](assets/download_tubechat.png)
+![download_tubechat](images/download_tubechat.png)
 
 7. Unzip the downloaded zip file(use the existing zip file) and open chrome and go to `chrome://extensions/`
 8. Click on "Load unpacked"
 9. Select the `dist` folder inside your unzipped tubechat-extension folder.
 
-![load_unpacked](assets/dist_folder.png)
+![load_unpacked](images/dist_folder.png)
 
 10. Now go to any youtube video and You must see the extension inserted in the youtube dom itself.
 
-![extension_in_youtube](assets/extension_in_youtube.png)
+![extension_in_youtube](images/extension_in_youtube.png)
 
 11. Now lets start the **backend server**, go to backend folder and run the following command
 
@@ -40,7 +40,7 @@ Youtube Buddy is a chrome extension that allows you to talk with youtube videos.
 
 - Talk to youtube videos
 - Watch video in Multilingual Languages
-![Working Diagram](image.png)
+![Working Diagram](images/workflow_diagram.png)
 
 ## Design Implementation 
 
