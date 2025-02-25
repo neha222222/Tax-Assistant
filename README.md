@@ -28,13 +28,19 @@
 ```bash
 cd ..
 cd backend
-chmod +x ./setup.sh
-./start.sh
+docker build -t tubechat .
+docker run -d -p 8000:8000 tubechat
 
 ```
+tubechat backend will be running on `http://localhost:8000`
 
+![backend_running](images/bacend_endpoints.png)
+
+12. Now we can talk on any youtube. Just visit any youtube video, a chat window will open, login in it 
 
 Youtube Buddy is a chrome extension that allows you to talk with youtube videos.
+
+
 
 ### Features
 
@@ -46,9 +52,9 @@ Youtube Buddy is a chrome extension that allows you to talk with youtube videos.
 
 ### Frontend
 
-### Backend
+### Backend and Database
 
-### Database
+### Extension 
 
 
 

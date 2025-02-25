@@ -47,12 +47,13 @@ def add_check_video_db(video_id: str):
 @app.get("/talk_with_pulpy")
 def talking_pulpy(query,video_id):
     query_context = get_relevant_context(query,video_id)
+    print(query_context)
     return gemini_response(query_context,query)
 
 
 
 
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=5000, log_level="info")
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run(app, host="0.0.0.0", port=5000, log_level="info")
