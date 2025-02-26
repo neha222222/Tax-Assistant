@@ -48,7 +48,8 @@ Youtube Buddy is a chrome extension that allows you to talk with youtube videos.
 - Watch video in Multilingual Languages
 ![Working Diagram](images/workflow_diagram.png)
 
-
+## Figma Design Files
+https://www.figma.com/design/5rBFtL5t4HbwSi7FqnScN3/main?node-id=0-1&t=YA7Zb2lnpHT9aOQd-1
 
 
 ### Frontend
